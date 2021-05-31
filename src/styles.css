@@ -1,0 +1,282 @@
+.App {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  hr {
+    height: 1.5px;
+    background: #f0f3f8;
+    border: none;
+    margin: 0;
+  }
+  .NavBar {
+    position: absolute;
+    width: 270px;
+    background-color: #fefefe;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .NavBar .logoSection {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .NavBar .logoSection .Logo {
+    margin-top: 4px;
+    width: 25%;
+  }
+  .NavBar .mainNav {
+    height: 280px;
+    color: #8492a4;
+  }
+  .NavBar h1 {
+    text-align: left;
+    font-size: 10px;
+    margin: 15px;
+    font-weight: 300;
+  }
+  .NavBar ul {
+    padding: 0;
+    margin: auto 15px;
+  }
+  .NavBar li {
+    list-style-type: none;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .NavBar .liText {
+    text-decoration: none;
+    color: #8492a4;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  .NavBar #active {
+    background-color: #382bdb;
+    color: white;
+  }
+  .NavBar #active .liText {
+    color: white;
+  }
+  .NavBar .SecondNav {
+    height: 220px;
+    color: #8492a4;
+  }
+  .NavBar .LastNav {
+    color: #8492a4;
+  }
+  
+  .Dashboard {
+    position: absolute;
+    border-left: 1.5px solid #f0f3f8;
+    left: 270px;
+    top: 0;
+    right: 0;
+    background-color: #f0f3f8;
+  }
+  .Menubar {
+    height: 70px;
+    background-color: #fefefe;
+    color: #8492a4;
+    width: 100%;
+  }
+  .searchBar {
+    display: inline-block;
+    width: 900px;
+    padding-left: 15px;
+    display: inline-flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .searchBar input {
+    border: none;
+    width: 700px;
+    margin-left: 10px;
+  }
+  .searchBar input:focus {
+    outline: none;
+  }
+  .searchBar input::placeholder {
+    color: #8492a4;
+  }
+  .Menubar .Icon {
+    margin: auto 10px;
+  }
+  .Menubar .profilePic {
+    width: 35px;
+    border-radius: 100%;
+  }
+  .Menubar td {
+    font-size: 15px;
+    text-align: center;
+  }
+  .Menubar .name {
+    color: black;
+    font-weight: 500;
+  }
+  .Menubar table {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    display: inline-block;
+  }
+  div[role="menu"] {
+    visibility: hidden;
+  }
+  
+  div[role="menu"].visible {
+    visibility: visible;
+  }
+  #outer {
+    margin-left: 150px;
+    margin-top: 25px;
+    float: left;
+  }
+  
+  .TotalIncome {
+    width: 435px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .Dashboard p {
+    color: #8492a4;
+    margin: 0;
+  }
+  .Dashboard h1 {
+    display: inline-block;
+    font-weight: 900;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .Dashboard .Percent {
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 0.7rem;
+    background-color: #18bb84;
+    color: #f0f3f8;
+    border-top-left-radius: 10px 50%;
+    border-bottom-left-radius: 10px 50%;
+    border-top-right-radius: 10px 50%;
+    border-bottom-right-radius: 10px 50%;
+  }
+  .TotalIncome .Goal {
+    font-size: 0.8rem;
+    margin-top: 8px;
+    color: #d7dce2;
+  }
+  .NewUsers {
+    width: 435px;
+    height: 160px;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .NewUsers img {
+    width: 435px;
+  }
+  .Balance {
+    margin: 25px auto auto 25px;
+    width: 475px;
+    height: 370px;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .Balance h1 {
+    margin: 15px;
+    font-size: 25px;
+  }
+  .Balance img {
+    width: 475px;
+  }
+  .Balance .Cont {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Balance .Earnings {
+    height: 75px;
+    width: 200px;
+    border: 1px solid #d7dce2;
+    border-radius: 5px;
+  }
+  .Balance .SalesValue {
+    height: 75px;
+    width: 200px;
+    border: 1px solid #d7dce2;
+    border-radius: 5px;
+  }
+  .Cont p {
+    font-size: 0.7rem;
+    margin: 15px auto 0 15px;
+  }
+  .Cont h2 {
+    display: inline-block;
+    margin: 3px auto auto 15px;
+    font-weight: 900;
+  }
+  .Transactions {
+    position: relative;
+  
+    margin: 456px auto 25px 150px;
+    width: 975px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .Transactions h1 {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 25px;
+  }
+  .Transactions .ExportButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: center;
+    background-color: #382bdb;
+    color: #d7dce2;
+    border-radius: 5px;
+    border: 0;
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+  
+  .Transactions .Icon {
+    font-size: 1rem;
+  }
+  .Transactions .Incoming {
+    margin-left: 15px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #8492a4;
+  }
+  .Transactions #active {
+    color: #5c52df;
+    border-bottom: 2px solid #5c52df;
+  }
+  

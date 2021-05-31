@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/salesduo/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/salesduo/static/js/main.a50c65f6.chunk.js",
+    "main.js.map": "/salesduo/static/js/main.a50c65f6.chunk.js.map",
+    "runtime-main.js": "/salesduo/static/js/runtime-main.e1c77c7f.js",
+    "runtime-main.js.map": "/salesduo/static/js/runtime-main.e1c77c7f.js.map",
+    "static/js/2.93d887d3.chunk.js": "/salesduo/static/js/2.93d887d3.chunk.js",
+    "static/js/2.93d887d3.chunk.js.map": "/salesduo/static/js/2.93d887d3.chunk.js.map",
+    "static/js/3.ef6676e4.chunk.js": "/salesduo/static/js/3.ef6676e4.chunk.js",
+    "static/js/3.ef6676e4.chunk.js.map": "/salesduo/static/js/3.ef6676e4.chunk.js.map",
+    "index.html": "/salesduo/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/salesduo/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.93d887d3.chunk.js.LICENSE.txt": "/salesduo/static/js/2.93d887d3.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/salesduo/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1c77c7f.js",
+    "static/js/2.93d887d3.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.a50c65f6.chunk.js"
+  ]
+}
