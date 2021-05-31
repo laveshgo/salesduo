@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/salesduo/static/css/main.84a1c58a.chunk.css",
-    "main.js": "/salesduo/static/js/main.6d011866.chunk.js",
-    "main.js.map": "/salesduo/static/js/main.6d011866.chunk.js.map",
+    "main.css": "/salesduo/static/css/main.136e56f3.chunk.css",
+    "main.js": "/salesduo/static/js/main.62315edf.chunk.js",
+    "main.js.map": "/salesduo/static/js/main.62315edf.chunk.js.map",
     "runtime-main.js": "/salesduo/static/js/runtime-main.6de0ba13.js",
     "runtime-main.js.map": "/salesduo/static/js/runtime-main.6de0ba13.js.map",
-    "static/js/2.9ed1d5d1.chunk.js": "/salesduo/static/js/2.9ed1d5d1.chunk.js",
-    "static/js/2.9ed1d5d1.chunk.js.map": "/salesduo/static/js/2.9ed1d5d1.chunk.js.map",
+    "static/js/2.7bf6aacd.chunk.js": "/salesduo/static/js/2.7bf6aacd.chunk.js",
+    "static/js/2.7bf6aacd.chunk.js.map": "/salesduo/static/js/2.7bf6aacd.chunk.js.map",
     "index.html": "/salesduo/index.html",
-    "static/css/main.84a1c58a.chunk.css.map": "/salesduo/static/css/main.84a1c58a.chunk.css.map",
-    "static/js/2.9ed1d5d1.chunk.js.LICENSE.txt": "/salesduo/static/js/2.9ed1d5d1.chunk.js.LICENSE.txt",
+    "static/css/main.136e56f3.chunk.css.map": "/salesduo/static/css/main.136e56f3.chunk.css.map",
+    "static/js/2.7bf6aacd.chunk.js.LICENSE.txt": "/salesduo/static/js/2.7bf6aacd.chunk.js.LICENSE.txt",
     "static/media/Charts.5cf2c9cb.png": "/salesduo/static/media/Charts.5cf2c9cb.png",
     "static/media/Graph.9d238018.png": "/salesduo/static/media/Graph.9d238018.png",
     "static/media/me.d17c85be.png": "/salesduo/static/media/me.d17c85be.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6de0ba13.js",
-    "static/js/2.9ed1d5d1.chunk.js",
-    "static/css/main.84a1c58a.chunk.css",
-    "static/js/main.6d011866.chunk.js"
+    "static/js/2.7bf6aacd.chunk.js",
+    "static/css/main.136e56f3.chunk.css",
+    "static/js/main.62315edf.chunk.js"
   ]
 }
