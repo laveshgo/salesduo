@@ -27,9 +27,9 @@ function NavBar(props) {
       <div className="mainNav">
         <h1>MAIN</h1>
         <ul>
-          <li id={props.location.pathname === "/" ? "active" : ""}>
+          <li id={props.location.pathname === "/salesduo" ? "active" : ""}>
             <DashboardIcon />
-            <Link className="liText" to="/">
+            <Link className="liText" to="/salesduo">
               Dashboard{" "}
             </Link>
           </li>{" "}
