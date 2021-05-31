@@ -59,7 +59,9 @@ function Dashboard() {
 
       <div className="Transactions">
         <h1>Recent Transactions</h1>
-        <button className="ExportButton">
+        <button className="ExportButton" onClick={() => {
+                      alert("Exported!");
+                    }}>
           <GetAppIcon className="Icon" />
           <span>Export</span>
         </button>

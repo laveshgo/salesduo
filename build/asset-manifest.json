@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/salesduo/static/css/main.84a1c58a.chunk.css",
-    "main.js": "/salesduo/static/js/main.7067ce84.chunk.js",
-    "main.js.map": "/salesduo/static/js/main.7067ce84.chunk.js.map",
+    "main.js": "/salesduo/static/js/main.6d011866.chunk.js",
+    "main.js.map": "/salesduo/static/js/main.6d011866.chunk.js.map",
     "runtime-main.js": "/salesduo/static/js/runtime-main.6de0ba13.js",
     "runtime-main.js.map": "/salesduo/static/js/runtime-main.6de0ba13.js.map",
     "static/js/2.9ed1d5d1.chunk.js": "/salesduo/static/js/2.9ed1d5d1.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6de0ba13.js",
     "static/js/2.9ed1d5d1.chunk.js",
     "static/css/main.84a1c58a.chunk.css",
-    "static/js/main.7067ce84.chunk.js"
+    "static/js/main.6d011866.chunk.js"
   ]
 }

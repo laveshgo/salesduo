@@ -1,12 +1,36 @@
 .App {
     font-family: "Roboto", sans-serif;
   }
-  
+  .otherSections {
+    position: fixed;
+    left: 270px;
+    top: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f3f8;
+  }
+  .otherSections .content {
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    background-color: #fff;
+    align-content: center;
+    text-align: center;
+  }
+  .otherSections h1 {
+    margin: 0;
+  }
   hr {
     height: 1.5px;
     background: #f0f3f8;
     border: none;
     margin: 0;
+  }
+  a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
   }
   .NavBar {
     position: absolute;
@@ -103,8 +127,10 @@
     width: 700px;
     margin-left: 10px;
   }
-  .searchBar input:focus {
+  .searchBar input:focus, .searchBar input :active{
     outline: none;
+    border-bottom: 2px solid #382bdb;
+
   }
   .searchBar input::placeholder {
     color: #8492a4;
@@ -112,6 +138,15 @@
   .Menubar .Icon {
     margin: auto 10px;
   }
+  
+.Menubar .MuiSvgIcon-root {
+  fill: #8492a4;
+}
+
+.Meenubar a:-webkit-any-link {
+  color: #8492a4;
+  cursor: pointer;
+}
   .Menubar .profilePic {
     width: 35px;
     border-radius: 100%;
@@ -274,6 +309,7 @@
     text-align: center;
     font-size: 0.8rem;
     color: #8492a4;
+    cursor: pointer;
   }
   .Transactions #active {
     color: #5c52df;

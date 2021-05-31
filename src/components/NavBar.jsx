@@ -17,10 +17,12 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 function NavBar(props) {
   return (
     <div className="NavBar">
-      <div className="logoSection">
-        <img className="Logo" src={logo} alt="" />
-        <p>Artemis</p>
-      </div>
+      <Link to="/salesduo">
+        <div className="logoSection">
+          <img className="Logo" src={logo} alt="" />
+          <p>Artemis</p>
+        </div>
+      </Link>
 
       <hr />
 
